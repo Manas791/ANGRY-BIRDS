@@ -13,7 +13,8 @@ function setup(){
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
     ground = new Ground(600,height,1200,20)
-pig1=new pig(810,350)
+platform=new Ground(150,305,300,170)
+    pig1=new pig(810,350)
 log1=new log(810,260,300,PI/2)
 box3 = new Box(700,240,70,70);
 box4 = new Box(920,240,70,70);
@@ -44,5 +45,5 @@ log2.display();
 log3.display();
 log4.display();
 box5.display();
-
+platform.display()
 }
